@@ -11,12 +11,6 @@
 - This file does the mismatch calculations and plotting (only plots the optimal arrangement right now) for a given set of ions
 - There is an example with all of the Ag-Bi-Br combinations and their minimized total mismatches. If you want to do the same thing with other sets of ions, you can generate a csv from `GenerateAllPossibleIonSets.ipynb` and use the code I have in the last two cells of this file and just change out the variable names
 
-## Calculations + Plotting with Edge Conditions (Unfinished).ipynb:
-- Adds in a few of the edge cases (far right column and bottom row)
-- May need to adjust the order of the `allShapes` list in the `makeCoordinates(combination, rows, columns)` function because we need the new edge cases to be in the correct order for the rows/columns to be properly defined in the calcMismatches function
-- Calculations may need to be adjusted (in the `calcMismatches(points, rows, columns)` function
-
-
 
 ## GenerateAllPossibleIonSets.ipynb:
 - This will calculate all possible sets of 1+/2+/3+ or 2+/4+/vacancy ions
