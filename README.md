@@ -30,5 +30,4 @@
 - I included this file because it is used for one of the examples in `Calculations and Plotting - No Edge Cases.ipynb`
 
 ## cr2+Combos.csv:
-- A list of all possible combinations with Cr2+ 
-- I believe it does not include redox potentials (but you can double check by re-running the GenerateAllPossibleIonSets.ipynb code with Cr2+)
+- A list of all possible combinations with Cr2+  (without redox considerations)
